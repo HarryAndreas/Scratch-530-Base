@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment/>
+<entry key="version">1.0</entry>
+<entry key="plugin-type">CommandPlugin</entry>
+<entry key="name">DownloadFilePlugin</entry>
+<entry key="author">Harry Andreas</entry>
+<entry key="description">A plugin command that downloads files from the specified parameters.</entry>
+<entry key="invoke-from">org.rs2.gui.plugin.impl.DownloadFilePlugin</entry>
+<entry key="build">http://www.runecore.org/plugins/download.jar</entry>
+</properties>
