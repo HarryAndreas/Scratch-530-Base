@@ -20,7 +20,7 @@ public class DefaultProtocolEncoder extends OneToOneEncoder {
 	 */
 	@Override
 	protected Object encode(ChannelHandlerContext ctx, Channel chan, Object msg) throws Exception {
-		if(chan == null || !chan.isConnected() || !chan.isWritable()) {
+		if(chan == null || !chan.isConnected()) {
 			return null;
 		}
 		if(msg instanceof ChannelBuffer) {
